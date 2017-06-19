@@ -1,0 +1,25 @@
+{
+	"actions": [
+      {
+        "description": "Default Welcome Intent",
+        "name": "MAIN",
+        "fulfillment": {
+          "conversationName": "Say_number_test"
+        },
+        "intent": {
+          "name": "actions.intent.MAIN",
+          "trigger": {
+            "queryPatterns": [
+              "talk to say number test"
+            ]
+          }
+        }
+      }
+    ],
+    "conversations": {
+      "Say_number_test": {
+        "name": "Say_number_test",
+        "url": "https://console.actions.google.com/project/say-number-test-b860c"
+      }
+    }
+}
